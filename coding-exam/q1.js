@@ -12,3 +12,13 @@ Specifications:
     Ex4. 2000 is a leap year.
 Please use your browser to test the application.
 */
+
+const xx = prompt('Check leap year');
+if (xx % 4 == 0 && xx % 100 != 0 || xx % 400 == 0) {
+    console.log(`${xx} is a leap year`);
+} else if (xx == "") {
+    console.log(`${xx} is not a leap year`);
+} else {
+    console.log(`${xx} is not a leap year`);
+}
+
